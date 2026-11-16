@@ -13,8 +13,10 @@ seja feita por uma pessoa ou por qualquer IA.
 | `tokens.json` | Os mesmos valores (cores, fontes, tamanhos, formatos) em formato de dados |
 | `scripts/estilo_excel.py` | Aplica o estilo em arquivos `.xlsx` (Python + openpyxl) |
 | `scripts/estilo_sheets.gs` | Aplica o estilo no Google Sheets (Apps Script) |
-| `assets/logo.png` | Logo Saldus para fundo escuro (adicionar) |
-| `assets/logo-escura.png` | Logo Saldus para fundo branco (adicionar, se existir) |
+| `assets/logo-saldus.svg` | Logo Saldus em vetor (mestre), letras creme, para fundo escuro |
+| `assets/logo-saldus-escura.svg` | Logo em vetor com letras petróleo, para fundo branco |
+| `assets/logo.png` | Logo para fundo escuro, em PNG de alta resolução (gerado do SVG) |
+| `assets/logo-escura.png` | Logo para fundo branco, em PNG de alta resolução (gerado do SVG) |
 
 ## Como usar em cada plataforma
 

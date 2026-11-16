@@ -184,8 +184,12 @@ Regras:
 
 ### Logo (Saldus)
 - A logo é o ícone âmbar arredondado com o "S" + o nome **SALDUS** ao lado.
-- Arquivos: `assets/logo.png` (letras claras — **é a usada na faixa petróleo do topo**) e
-  `assets/logo-escura.png` (letras em petróleo — só para fundo branco, ex.: documentos sem faixa).
+- **Arquivo-mestre em vetor:** `assets/logo-saldus.svg` (letras creme, para fundo escuro) e
+  `assets/logo-saldus-escura.svg` (letras petróleo, para fundo branco). Use o SVG sempre que o programa
+  aceitar (Figma, web, Google Slides).
+- Para planilhas e Word (que não aceitam SVG pelos scripts): `assets/logo.png` (letras claras — **é a
+  usada na faixa petróleo do topo**) e `assets/logo-escura.png` (letras em petróleo — só para fundo
+  branco), gerados do SVG em alta resolução (1289 px de largura).
   Se o arquivo não estiver disponível, deixe o espaço livre e não recrie a logo.
 - Posição: dentro da faixa do topo, canto **direito**, centralizada na altura das linhas 1–2, terminando
   ~12 px antes da borda direita da tabela; altura ≈ 40 px, sem distorcer a proporção.
